@@ -31,3 +31,7 @@ SELECT driver_name,
 GROUP BY driver_name
 HAVING COUNT(1) >= 50
 ORDER BY avg_points DESC
+
+-- COMMAND ----------
+
+select "My name is Muhammad Ali"
